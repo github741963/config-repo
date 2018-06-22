@@ -7,13 +7,7 @@ spring:
     password: ~!QAZpl,8086
     url: jdbc:mysql://140.143.89.162:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka #设置服务注册中心地址
-  instance:
-      prefer-ip-address: true #设置服务注册是以ip注册
-      instance-id: 192.168.2.114:8081 #服务注册时以ip+port显示，默认是主机名+应用名+端口
+
 mybatis:
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
