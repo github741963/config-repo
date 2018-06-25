@@ -24,3 +24,6 @@ spring:
     password: guest
 env:
  dev2
+girl:
+ name: 小萌萌
+ age: 1
